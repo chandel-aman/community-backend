@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "node build/server.js",
-    "socket": "nodemon ./src/socket.js",
     "dev": "nodemon ./src/server.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +26,6 @@
     "mongoose-paginate-v2": "^1.7.4",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
-    "socket.io": "^4.7.2",
     "ts-node": "^10.9.1",
     "validator": "^13.11.0"
   },
